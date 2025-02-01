@@ -12,6 +12,11 @@ The **Bank System** is a simple console-based C++ application that simulates bas
 - Quick withdraw options
 - Data storage using a text file (`Clients.txt`)
 - Console-based user interface
+- Client Management (Add, Remove, Update Clients)
+- User Authentication System
+- Currency Handling
+- Transaction Logging (Transfers, Deposits, Withdrawals)
+- Input Validation for Secure Data Handling
 
 ## Requirements
 
@@ -64,13 +69,36 @@ The **Bank System** is a simple console-based C++ application that simulates bas
    - Exit
 4. Follow the on-screen instructions to perform banking operations.
 
-## File Structure
-
+## Project Structure
 ```
-Bank-System/
-│── main.cpp        # Main source file
-│── Clients.txt     # File storing client account data
-│── README.md       # Project documentation
+Project1/
+├── Header Files/
+│   ├── Core/
+│   │   ├── CBankClient.h
+│   │   ├── CCurrency.h
+│   │   ├── CPerson.h
+│   │   ├── CUser.h
+│   ├── Lib/
+│   │   ├── CDate.h
+│   │   ├── CInputValidate.h
+│   │   ├── CPeriod.h
+│   │   ├── CString.h
+│   │   ├── CUtil.h
+│   ├── Screens/
+│   │   ├── Client/
+│   │   ├── Currencies/
+│   │   ├── User/
+│   │   ├── CMainMenueScreen.h
+│   │   ├── CScreen.h
+│   ├── Global.h
+├── Source Files/
+│   ├── Main.cpp
+├── Text Files/
+│   ├── Clients.txt
+│   ├── Currencies.txt
+│   ├── LoginRegister.txt
+│   ├── TransferRegister.txt
+│   ├── Users.txt
 ```
 
 ## Future Enhancements
@@ -92,8 +120,7 @@ This project is licensed under the MIT License.
 
 - **Author:** Ahmed Atef Hegazy
 - **GitHub:** [AhmedAtefHegazy](https://github.com/AhmedAtefHegazy)
-- **Email:** [[AhmedAtef10987@gmail.com](AhmedAtef10987@gmail.com)]
-- **Linkedin:** [[AhmedAtefHegazy](www.linkedin.com/in/ahmed-atef-hegazy)]
+- **Linkedin:** [[LinkedIn Profile](https://www.linkedin.com/in/ahmed-atef-hegazy/)]
 
 ---
 
