@@ -1,99 +1,101 @@
-Bank System
+# Bank System
 
-Description
+## Description
 
-The Bank System is a simple console-based C++ application that simulates basic banking operations. It allows users to create an account, check their balance, deposit and withdraw money, and perform other essential banking functions.
+The **Bank System** is a simple console-based C++ application that simulates basic banking operations. It allows users to create an account, check their balance, deposit and withdraw money, and perform other essential banking functions.
 
-Features
+## Features
 
-User authentication with account number and PIN code
+- User authentication with account number and PIN code
+- Deposit and withdrawal functionality
+- Balance inquiry
+- Quick withdraw options
+- Data storage using a text file (`Clients.txt`)
+- Console-based user interface
 
-Deposit and withdrawal functionality
+## Requirements
 
-Balance inquiry
+- C++ Compiler (GCC, MSVC, Clang, etc.)
+- Any text editor or IDE (e.g., Visual Studio Code, Code::Blocks, Dev-C++)
 
-Quick withdraw options
+## Installation & Setup
 
-Data storage using a text file (Clients.txt)
+1. **Clone the Repository**
 
-Console-based user interface
+   ```sh
+   git clone https://github.com/AhmedAtefHegazy/Bank-System.git
+   ```
 
-Requirements
+2. **Navigate to the Project Directory**
 
-C++ Compiler (GCC, MSVC, Clang, etc.)
+   ```sh
+   cd Bank-System
+   ```
 
-Any text editor or IDE (e.g., Visual Studio Code, Code::Blocks, Dev-C++)
+3. **Compile the Source Code**
 
-Installation & Setup
+   ```sh
+   g++ main.cpp -o BankSystem.exe
+   ```
 
-Clone the Repository
+   *(Replace **`main.cpp`** with the actual main source file name if different.)*
 
-git clone https://github.com/AhmedAtefHegazy/Bank-System.git
+4. **Run the Application**
 
-Navigate to the Project Directory
+   ```sh
+   ./BankSystem.exe
+   ```
+5. **Login**
 
-cd Bank-System
+   ```sh
+   ./User:User1
+   ./PassWord:AhmedAtef1234
+   ```
 
-Compile the Source Code
+## Usage
 
-g++ main.cpp -o BankSystem.exe
+1. Launch the application.
+2. Enter your **Account Number** and **PIN Code**.
+3. Choose an option from the menu:
+   - Check Balance
+   - Deposit Money
+   - Withdraw Money
+   - Quick Withdraw
+   - Exit
+4. Follow the on-screen instructions to perform banking operations.
 
-(Replace main.cpp with the actual main source file name if different.)
+## File Structure
 
-Run the Application
-
-./BankSystem.exe
-
-Usage
-
-Launch the application.
-
-Enter your Account Number and PIN Code.
-
-Choose an option from the menu:
-
-Check Balance
-
-Deposit Money
-
-Withdraw Money
-
-Quick Withdraw
-
-Exit
-
-Follow the on-screen instructions to perform banking operations.
-
-File Structure
-
+```
 Bank-System/
 │── main.cpp        # Main source file
 │── Clients.txt     # File storing client account data
 │── README.md       # Project documentation
-│── LICENSE         # License file (if applicable)
+```
 
-Future Enhancements
+## Future Enhancements
 
-Implement Object-Oriented Programming (OOP) concepts
+- Implement Object-Oriented Programming (OOP) concepts
+- Add an Admin Panel for better account management
+- Encrypt stored user data for security
+- Introduce a GUI version using C++ frameworks
 
-Add an Admin Panel for better account management
-
-Encrypt stored user data for security
-
-Introduce a GUI version using C++ frameworks
-
-Contributing
+## Contributing
 
 Contributions are welcome! Feel free to fork this repository, make improvements, and submit a pull request.
 
-License
+## License
 
 This project is licensed under the MIT License.
 
-Contact
+## Contact
 
-Author: Ahmed Atef Hegazy
+- **Author:** Ahmed Atef Hegazy
+- **GitHub:** [AhmedAtefHegazy](https://github.com/AhmedAtefHegazy)
+- **Email:** [[AhmedAtef10987@gmail.com](AhmedAtef10987@gmail.com)]
+- **Linkedin:** [[AhmedAtefHegazy](www.linkedin.com/in/ahmed-atef-hegazy)]
 
-GitHub: AhmedAtefHegazy
+---
 
-Email: [AhmedAtef10987@gmail.com] 
+
+
